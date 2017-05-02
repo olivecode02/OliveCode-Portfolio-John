@@ -3,27 +3,107 @@
 <head>
 	<title>OliveCode</title> 
 	<link rel="stylesheet" href="../css/custom.css">
+	<script type="text/javascript" src="../js/responsive-menu.js"></script>
 </head>
 <body>
 	<div id="page">
 		<header id="wrapper">
 			<div class="header-main">
 				<div class="page-title">
-					<img src="http://portfolio.localhost/css/images/olivecode_logo.png">
+					<img src="/css/images/olivecode_logo.png">
 				</div>
 			</div>
 			<div class="nav-menu">
-				<div class="main-menu">
+				<div class="main-menu" id="myTopnav">
 					<ul>
+						<li><a href="javascript:void(0);" style="font-size: 17px; font-weight: 800;" class="icon" onclick="myFunction()">&#9776; Menu</a></li>
 						<li><a href="#">HOME</a></li>
-						<li><a href="#">PORTFOLIO</a></li>
-						<li><a href="#">ABOUT ME</a></li>
-						<li><a href="#">CONTACT</a></li>
+						<li><a href="#olive-portfolio">PORTFOLIO</a></li>
+						<li><a href="#olive-about">ABOUT ME</a></li>
+						<li><a href="#olive-contact">CONTACT</a></li>
 					</ul>
 				</div>
 			</div>
 		</header>
+		<div id="content">
+			<div class="olive-download">
+				<div class="olive-download-box">
+					<div class="olive-download-content">
+						<h2>OliveCode</h2>
+						<a href="#">Download CV</a>
+					</div>
+				</div>
+			</div>
+			<div id="olive-portfolio">
+				<h2>Portfolio</h2>
+				<div class="olive-portfolio-box">
+					<a href="#"><img src="/css/images/wp_banner.png"></a>
+				</div>
+				<div class="olive-portfolio-box">
+					<a href="#"><img src="/css/images/resp_banner.png"></a>
+				</div>
+				<div class="olive-portfolio-box">
+					<a href="#"><img src="/css/images/html_css_banner.png"></a>
+				</div>
+				<div class="olive-portfolio-box">
+					<a href="#"><img src="/css/images/js_banner.png"></a>
+				</div>
+			</div>
+			<div id="olive-about">
+				<h2>ABOUT ME</h2>
+				<div class="olive-about-box">
+					<div class="olive-about-description">
+						<h3>OliveCode</h3>
+						<p>Olive represents "wisdom" in Greek mytho-
+						logy and pigeon holding olive in its mouth 
+						represents "peace" in the Bible. 
+						Olive bears a lot of fruits for centuries if 
+						we keep giving nutritious materials to it. 
+						We believe all these images of olive fit 
+						with our concept of the service.</p>
+					</div>
+					<div class="olive-about-matrix">
+						<img src="/css/images/olive_matrix.png">
+					</div>
+				</div>
+			</div>
+			<div id="olive-contact">
+				<div class="olive-contact-box1">
+					<img src="/css/images/olivecode_logo.png">
+					<p>Welcome to OliveCode, 
+					A job-guaranteed online programming course
+				 	for Bangladeshi.</p>
+					<p>Motto</p>
+					<p>"Code with Passion, Learning is fun
+					OliveCode No. 1"</p>
+				</div>
+				<div class="olive-contact-box2">
+					<table>
+						<tr>
+							<td><p>NAME:</p></td>
+							<td><input type="text" name="name"></td>
+						</tr>
+						<tr>
+							<td><p>E-MAIL:</p></td>
+							<td><input type="text" name="email"></td>
+						</tr>
+						<tr>
+							<td><p>CONTENT:</p></td>
+							<td><textarea rows="4" cols="50"></textarea></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href="#">SEND</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="copyright-note">
+				<p>OliveCode Copyright 2016. All Rights Reserved</p>
+			</div>
+		</footer>
 	</div>
 </body>
-</html>    
-    
+</html>
